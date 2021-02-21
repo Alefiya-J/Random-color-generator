@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.color-gen{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:red;
+    height:40%;
+    width:30%;
+    background-color: white;
+    padding:20px;
+}
+
+.color-gen button{
+    font-size: 18px;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 9px;
+    background-color: black;
+    color:white;
+}
+.color-gen input{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
